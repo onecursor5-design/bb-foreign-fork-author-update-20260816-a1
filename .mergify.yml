@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: inert foreign-fork author discriminator
+    conditions:
+      - title = BB_NEVER_AUTO_MATCH_Q7N4
+    actions:
+      comment:
+        message: BB_NEVER_AUTO_ACTION_Q7N4
